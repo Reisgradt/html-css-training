@@ -1,2 +1,2 @@
 ## Скриншот страницы
-![Пример вёрстки](/Intent/img/example.png "Пример вёрстки")
+![Пример вёрстки](https://github.com/Reisgradt/html-css-training/blob/master/Intent/img/example.PNG "Пример вёрстки")
