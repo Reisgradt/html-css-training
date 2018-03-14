@@ -1,2 +1,2 @@
 ## Скриншот страницы
-![alt-текст](/img/example.png "Пример вёрстки")
+![Пример вёрстки](https://github.com/Reisgradt/html-css-training/blob/master/myfolio/img/example.png "Пример вёрстки")
