@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-family: sans-serif, Arial;
+    background: #fff url(img/bg.png);
+}
+
+.container {
+    margin: 40px auto 0;
+    width: 960px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+
+/*НАВИГАЦИОННАЯ ПАНЕЛЬ
+???????????????????????????????????*/
+
+.mainNav {
+    height: 40px;
+    background: #445963;
+    line-height: 0px;
+    margin-bottom: 20px;
+}
+
+.goHome {
+    width: 40px;
+    height: 40px;
+    background: #546e7a url(img/home-ico.png) no-repeat;
+    background-position: center;
+}
+
+.navItem {
+    padding: 20px 20px 0;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+}
+
+.profileNav {
+    background: url(img/profile-ico.png) center no-repeat;
+    margin-right: 20px;
+    clear: right;
+}
+
+.facebookNav {
+    background: url(img/facebook-ico.png) center no-repeat;
+}
+
+.twitterNav {
+    background: url(img/twitter-ico.png) center no-repeat;
+}
+
+.googleNav {
+    background: url(img/google-ico.png) center no-repeat;
+}
+
+.searchNav {
+    background: url(img/search-ico.png) center no-repeat;
+}
+
+.btnNav {
+    height: 40px;
+    width: 40px;
+}
+
+.socNav {
+    border-left: 1px solid #3b4a51;
+    border-right: 1px solid #3b4a51;
+    margin: 0 20px;
+}
+
+
+/*БАННЕР
++++++++++++++++++++++++++++++++++++++++*/
+
+.banner {
+    height: 350px;
+    background: url(img/banner.jpg) 0 0 no-repeat;
+    color: #fff;
+    text-align: left;
+    clear: both;
+}
+
+.bannerHead {
+    font-weight: normal;
+    font-size: 2em;
+    display: block;
+    padding: 40px;
+}
+
+.banner article {
+    display: block;
+    width: 420px;
+    padding: 0 40px;
+}
+
+.bannerBtn {
+    width: 185px;
+    height: 50px;
+    margin: 40px 40px;
+    border-radius: 3px;
+    border: none;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+/*ЛЕВОЕ МЕНЮ САЙТА
+++++++++++++++++++++++++++++++++*/
+.content {
+   margin-top: 20px;
+}
+.leftMenu {
+    float: left;
+    width: 300px;
+}
+.leftMenuItem {
+    -webkit-box-shadow: 0 0 4px #aaa;
+    box-shadow: 0 0 4px #aaa;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+/*Раздел рубрик
+((((((((((((((((((((((((((*/
+.rubricItemsDiv {
+
+}
+.rubricHeader {
+    padding: 20px 20px 5px;
+    font-size: 16px;
+    color: #51656e
+}
+.itemList_rubric {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.activeRubric {
+    background: #455a64;
+    color: #fff;
+}
+.activeRubric .rubricHeader {
+    color: #9fd1d9;
+}
+.item_rubric {
+    padding: 0 20px 15px;
+}
+
+
+/*Раздел последних новостей
+?????????????????????????????????*/
+.lastRecordHeader {
+    padding: 15px;
+    font-size: 1.2em;
+    color: #475055;
+    border-bottom: 1px solid #dde2e4;
+}
+.listContainerRecord {
+    padding: 15px 10px;
+}
+.recordItem {
+    padding: 5px;
+}
+.recordImg {
+    display: inline-block;
+    width: 71px;
+    height: 71px;
+}
+.recordContent {
+    width: 140px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.recordText {
+    height: 50px;
+    overflow: hidden;
+}
+.timeAddingRecord {
+    color: #e0e3e4;
+}
+
+
+/*Раздел вопроса пользователей
+::::::::::::::::::::::::::::::::::::::*/
+.questionHeader {
+    padding: 25px;
+    font-size: 1.2em;
+    color: #475055;
+}
+
+.questionSection {
+    margin: 0 15px 20px;
+    font-family: Arial;
+}
+.nameInput, .mailInput {
+    width: 260px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.questionArea {
+    width: 260px;
+    height: 110px;
+    resize: none;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.questionSubmit {
+    width: 110px;
+    height: 40px;
+    color: #fff;
+    background: #25C07F;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.questionSection input:focus, .questionSection textarea:focus{
+    border: 1px solid #4bc7c7;
+}
+
+/*Содержание сайта
+;;;;;;;;;;;;;;;;;;;;;;;;*/
+.content main{
+    float: left;
+    margin-left: 40px;
+    width: 620px;
+}
+.mainNews {
+    margin-bottom: 20px;
+    background: #fff;
+     -webkit-box-shadow: 0 0 4px #aaa;
+    box-shadow: 0 0 4px #aaa;
+}
+.blogImg {
+    width: 620px;
+    height: 145px;
+    margin-bottom: 33px;
+}
+.icoHeaderContent {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(img/news-ico.jpg) center no-repeat;
+    margin-right: 33px;
+}
+.contentHeader {
+    display: inline-block;
+    font-size: 1.3em;
+    color: #475055;
+    vertical-align: top;
+    line-height: 40px;
+}
+.contentText {
+    width: 498px;
+    height: 102px;
+    line-height: 22px;
+    margin: 30px 30px 50px 73px;
+}
+.newsFooterList {
+    list-style-type: none;
+    padding: 0 0 35px 55px;
+}
+.newsFooterItem {
+    display: inline-block;
+    margin-left: 20px;
+}
+.repostContent:before {
+    content: "";
+    background: url(img/Share-ico.png) left center no-repeat;
+    display: inline-block;
+    width: 28px;
+    height: 16px;
+}
+.viewContent:before {
+    content: '';
+    background: url(img/Views-ico.png) left  center no-repeat;
+    display: inline-block;
+    width: 33px;
+    height: 14px;
+}
+.commContent:before {
+    content: '';
+    background: url(img/Comments-ico.png) left  center no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 15px;
+}
+
+
+/*Футер сайта
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.mainFooter {
+    background: #159E83;
+    clear: left;
+    margin: 0;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    font-size: .9em;
+}
+.yellowText {
+    color: #DBD872;
+}
+.navListFooter {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.linkFooter {
+    float: left;
+    margin-left: 20px;
+}
+
+.navItemFooter {
+    display: inline-block;
+}
+
